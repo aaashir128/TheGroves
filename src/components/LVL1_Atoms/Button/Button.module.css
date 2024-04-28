@@ -1,0 +1,12 @@
+.primary {
+  /* width: 100%;
+  height: 64px; */
+  border-radius: 16px;
+  background: linear-gradient(180deg, #ad8749, #dcbb75);
+  color: white;
+  font-weight: 400;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  justify-content: center;
+}

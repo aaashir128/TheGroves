@@ -1,0 +1,125 @@
+/* .header {
+} */
+/* .header-activeSideMen {
+} */
+
+.mainDiv {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* padding: 22px 140px; */
+}
+
+.logo {
+  width: 220px;
+
+  height: 50px;
+}
+
+.social-icons {
+  display: flex;
+  column-gap: 24px;
+  margin-right: 16px;
+}
+.icon {
+  cursor: pointer;
+}
+
+.headerOptions {
+  display: flex;
+  align-items: center;
+  column-gap: 16px;
+}
+
+.header_pages {
+  border-top: 1px solid rgb(151, 151, 151);
+  border-bottom: 1px solid rgb(151, 151, 151);
+  display: flex;
+  column-gap: 78px;
+  /* justify-content: space-between; */
+  /* padding: 16px 0; */
+  /* margin-top: 24px; */
+  padding: 14px 140px;
+}
+
+.pageLinks {
+  font-size: 13px;
+  text-transform: uppercase;
+  color: white;
+  letter-spacing: 2.6px;
+  cursor: pointer;
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+}
+
+@media (max-width: 991.98px) {
+  .header {
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  .header-activeSideMenu {
+    background: linear-gradient(93deg, #283606, #0f1500);
+    border-bottom: 1px solid rgb(151, 151, 151);
+  }
+  .headerOptions {
+    display: none;
+  }
+  .header_pages {
+    display: none;
+  }
+
+  .menuIcon {
+    display: flex;
+  }
+  .mainDiv {
+    padding: 21px 31px;
+  }
+
+  .logo {
+    width: 189px;
+    height: 43px;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  .menuIcon {
+    display: none;
+  }
+  .headerOptions {
+    display: flex;
+    align-items: center;
+    column-gap: 16px;
+  }
+  .header_pages {
+    display: flex;
+  }
+  .mainDiv {
+    padding: 22px 64px;
+  }
+  .header_pages {
+    padding: 14px 64px;
+    column-gap: 36px;
+  }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  .mainDiv {
+    padding: 22px 140px;
+  }
+  .header_pages {
+    padding: 14px 140px;
+    column-gap: 52px;
+  }
+}
+@media (min-width: 1440px) {
+  .header_pages {
+    column-gap: 86px;
+  }
+}

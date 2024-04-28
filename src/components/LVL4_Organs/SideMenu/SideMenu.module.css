@@ -1,0 +1,26 @@
+.pages {
+  border-bottom: 1px solid rgb(151, 151, 151);
+  display: flex;
+  column-gap: 78px;
+  padding: 18px 36px;
+  cursor: pointer;
+}
+
+.text {
+  color: white;
+  font-size: 13px;
+  letter-spacing: 2.6px;
+  line-height: 23px;
+  text-transform: uppercase;
+}
+
+.social-icons {
+  display: flex;
+  column-gap: 24px;
+  margin-right: 16px;
+  position: fixed;
+  bottom: 0;
+}
+.icon {
+  cursor: pointer;
+}

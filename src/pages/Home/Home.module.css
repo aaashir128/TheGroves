@@ -1,0 +1,204 @@
+/* styles.module.css */
+
+.container {
+  position: relative;
+}
+
+.backgroundImage {
+  width: 100%;
+  min-height: 100vh;
+  background-image: url("../../assets/Images/Group17252.png");
+  background-size: cover;
+  position: relative;
+  z-index: 1;
+  /* padding: 32px 140px; */
+}
+
+.middleBar {
+  background-color: rgba(0, 0, 0, 0.5);
+  height: 84.9%;
+  width: 40%;
+  margin-top: auto;
+  position: relative;
+}
+
+/* .middleBarMain {
+
+} */
+
+.place {
+  font-size: 13px;
+  font-weight: medium;
+  letter-spacing: 2.6px;
+  color: white;
+  /* text-decoration:; */
+}
+.titleFirstLine {
+  margin-top: 18px;
+  font-family: Playfair;
+  font-size: 68px;
+  font-weight: medium;
+  letter-spacing: 0px;
+  line-height: 76px;
+  color: white;
+}
+.title {
+  font-family: Playfair;
+  font-size: 68px;
+  font-weight: medium;
+  letter-spacing: 0px;
+  line-height: 76px;
+  color: white;
+}
+.description {
+  margin-top: 27px;
+  margin-bottom: 45px;
+  font-size: 15px;
+  /* font-weight: medium; */
+  letter-spacing: 0px;
+  color: white;
+  /* width: 388px; */
+  /* text-decoration:; */
+}
+
+.stepIndicators {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  position: absolute;
+  right: 3%;
+  bottom: 3%;
+}
+
+.stepIndicator {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: gray;
+  margin: 0 5px;
+}
+
+.active {
+  background-color: white;
+}
+
+.primaryBtn {
+  width: 250px !important;
+  border-radius: 16px;
+  background: linear-gradient(180deg, #ad8749, #dcbb75);
+  color: white;
+  font-weight: 400;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  justify-content: center;
+}
+
+/* .inactive {
+} */
+
+/* Small devices (landscape phones, 576px and up) */
+@media (max-width: 576px) {
+  .middleBarMain {
+    padding: 40px 31px;
+  }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  .middleBarMain {
+    padding: 40px 31px;
+  }
+}
+
+@media (max-width: 991.98px) {
+  .titleFirstLine {
+    margin-top: 16px;
+    font-size: 50px;
+    font-weight: 400;
+    line-height: 58px;
+  }
+  .title {
+    /* margin-top: 16px; */
+    font-size: 50px;
+    font-weight: 400;
+    line-height: 58px;
+  }
+
+  /* .middleBarMain {
+    padding: 140px 31px;
+  } */
+
+  .middleBar {
+    width: 100%;
+    height: 90vh;
+    /* background-color: transparent; */
+  }
+
+  .backgroundImage {
+    /* background-size: ; */
+    background-image: url("../../assets/Images/Group17252Mini.png");
+    position: relative;
+
+    background-size: contain;
+
+    /* padding: 32px 140px; */
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  .titleFirstLine {
+    margin-top: 18px;
+    font-family: Playfair;
+    font-size: 68px;
+    font-weight: medium;
+    letter-spacing: 0px;
+    line-height: 76px;
+    color: white;
+  }
+  .title {
+    /* margin-top: 18px; */
+    font-family: Playfair;
+    font-size: 68px;
+    font-weight: medium;
+    letter-spacing: 0px;
+    line-height: 76px;
+    color: white;
+  }
+
+  .middleBar {
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 84.9vh;
+    width: 40%;
+    margin-top: auto;
+    position: relative;
+  }
+  .middleBarMain {
+    padding: 64px 64px;
+  }
+  .primaryBtn {
+    width: 299px !important;
+  }
+
+  /* Extra large devices (large desktops, 1200px and up) */
+  @media (min-width: 1200px) {
+    .middleBarMain {
+      padding: 114px 140px 0 114px;
+    }
+    .middleBar {
+      /* min-height: 84.9vh; */
+      /* height: 83.3vh; */
+      /* height: calc(100vh - 164px); */
+      height: calc(100vh - 144px);
+      /* height: 84.9vh; */
+      /* height: 94vh; */
+    }
+  }
+}
+
+/* @media (max-width: 1200px) {
+  .middleBarMain {
+    padding: 114px 140px;
+  }
+} */

@@ -1,0 +1,23 @@
+.mainDiv {
+  display: flex;
+  /* width: 104px; */
+  height: 40px;
+  /* padding: 10px; */
+  border-radius: 6px;
+  gap: 12px;
+  align-items: center;
+  background-color: transparent;
+  cursor: pointer;
+  color: white;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.chevro-down {
+  transform: rotateX(180deg);
+}
+
+
+.dropdownTxt{
+  font-weight: 400;
+}
